@@ -1,37 +1,36 @@
-
-html{
-    width: 100%;
-    height: 100%;
+html {
+  width: 100%;
+  height: 100%;
 }
 
-.bg{
-    background-color: rgb(60, 60, 60);
+.bg {
+  background-color: rgb(60, 60, 60);
 }
 
-.nav-color{
-    background-color: #F8F9FA;
+.nav-color {
+  background-color: #f8f9fa;
 }
 
-.vertical{
-    width: 100%;
+.vertical {
+  width: 100%;
 }
 
-.full-image{
-    width: 100%;
-    height: 100%;
+.full-image {
+  width: 100%;
+  height: 100%;
 }
 
-.no-margin{
-    margin: 0px;
-    padding: 0px;
+.no-margin {
+  margin: 0px;
+  padding: 0px;
 }
 
-.img{
-    height:500px; 
-    width:500px;
+.img {
+  height: 500px;
+  width: 500px;
 }
 
-.footer {
+/*.footer {
     background-color: #F8F9FA;
     padding: 20px 0;
     position: fixed;
@@ -39,9 +38,16 @@ html{
     left: 0;
     width: 100%;
     height: 60px;
+}*/
+
+footer {
+  background-color: #f8f9fa;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  top: calc(100% - 50px);
 }
 
 .footer-text {
-    color: #6c757d;
+  color: #6c757d;
 }
-
