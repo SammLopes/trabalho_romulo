@@ -47,10 +47,11 @@ body {
 }
 
 footer {
-  background-color: #6c757d;
+  background-color: #212529;
+  color:#FFFFFF ;
 }
 nav {
-  background-color: #6c757d;
+  background-color: #212529;
 }
 
 /* .footer {
@@ -61,5 +62,5 @@ nav {
 } */
 
 .footer-text {
-  color: black;
+  color: #FFFFFF;
 }
