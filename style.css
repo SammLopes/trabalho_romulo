@@ -1,3 +1,4 @@
+
 body {
   width: 100%;
   height: 100% !important;
@@ -37,7 +38,7 @@ body {
 }*/
 
 .main {
-  position: absolute;
+  position: static;
   min-height: 100%;
   width: 100%;
 }
@@ -54,12 +55,18 @@ nav {
   background-color: #212529;
 }
 
-/* .footer {
-  position: absolute;
-  width: 100%;
+.disp{
+  display: grid;
+}
+
+.footer {
+  width: 100%; 
   height: 50px;
-  bottom: 0px;
-} */
+  text-align: center;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
 
 .footer-text {
   color: #FFFFFF;
