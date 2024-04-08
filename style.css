@@ -7,7 +7,7 @@ body {
 html, body {
   margin: 0;
   padding: 0;
-  
+
 }
 
 .bg {
@@ -72,7 +72,7 @@ nav {
 }
 
 .footer {
-  width: 100%; 
+  width: 100%;
   height: 50px;
   text-align: center;
   position: relative;
@@ -81,7 +81,7 @@ nav {
 }
 
 .footer-contato{
-/* 
+/*
   width: 100%;
   height: 100px;
   position: absolute;
@@ -91,7 +91,7 @@ nav {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2.5rem; 
+  height: 2.5rem;
 }
 
 .footer-text {
@@ -103,6 +103,6 @@ nav {
 }
 
 .card-contato{
-  width: 100%; 
+  width: 100%;
   height: 100%;
 }
