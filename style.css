@@ -1,10 +1,10 @@
 
 body {
   width: 100%;
-  height: 100% !important;
 }
 
 html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
   
@@ -45,10 +45,15 @@ html, body {
 
 .main {
   position: static;
-  min-height: 100%;
+  height: 100%;
   width: 100%;
 }
-
+.main-servicos {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  padding-bottom: 100px;
+}
 .main-contato {
   position: relative;
   min-height: 100vh;
@@ -81,13 +86,6 @@ nav {
 }
 
 .footer-contato{
-/* 
-  width: 100%;
-  height: 100px;
-  position: absolute;
-  bottom: 0;
-  left: 0; */
-
   position: absolute;
   bottom: 0;
   width: 100%;
